@@ -27,6 +27,7 @@ window.addEventListener('scroll', function() {
 $(document).ready(function(){
     $(".owl-carousel-full").owlCarousel({
         loop:true,
+        lazyLoad:true,
         autoplay:true,
     margin:20,
     dots:true,
